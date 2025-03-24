@@ -71,7 +71,7 @@ const Middle1 = () => {
                                             Thoughtfully designed walking paths that match your pace, secluded relaxation areas by the fire, and spacious heated terraces with bioclimatic protection from the elements.
                                         </p>
                                         <p className="mt-2 text-[20px]">
-                                            By immersing ourselves in your lifestyle, we offer our vision of your ideal home — crafted in harmony with nature, for you and your family.
+                                            <span className="text-[#d38c37]">  By immersing ourselves in your lifestyle, we offer our vision of your ideal home — crafted in harmony with nature, for you and your family. </span>
                                         </p>
                                     </>
                                 )}

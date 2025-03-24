@@ -15,7 +15,7 @@ const Header = () => {
 
     return (
         <div
-            className={`fixed top-0 left-0 w-full px-8 pb-8 z-50 flex flex-col md:flex-row justify-between items-center transition-all duration-300 backdrop-blur-sm ${isScrolled ? " bg-opacity-90 shadow-lg" : " bg-opacity-50"
+            className={`fixed top-0 left-0 w-full px-8 pb-8 z-50 flex flex-col md:flex-row justify-between items-center transition-all duration-300 backdrop-blur-sm "
                 }`}
         >
             <div>

@@ -4,7 +4,7 @@ import CallReceivedIcon from "@mui/icons-material/CallReceived";
 import CallMadeIcon from "@mui/icons-material/CallMade";
 
 const Middle3 = () => {
-    const [activeSection, setActiveSection] = useState(1);
+    const [activeSection, setActiveSection] = useState(3);
 
     const toggleSection = (section) => {
         if (activeSection !== section) {
@@ -72,7 +72,7 @@ const Middle3 = () => {
                                 {section === 3 && (
                                     <>
                                         <p className="text-[20px]">
-                                            A cozy family living room for relaxation, a grand reception hall for social events, a private spa with a beauty salon, a functional fitness and yoga space.
+                                            <span className="text-[#d38c37]">    A cozy family living room for relaxation, a grand reception hall for social events, a private spa with a beauty salon, a functional fitness and yoga space.</span>
                                         </p>
                                         <p className="mt-2 text-[20px]">
                                             Thoughtfully designed walking paths that match your pace, secluded relaxation areas by the fire, and spacious heated terraces with bioclimatic protection from the elements.

@@ -24,9 +24,9 @@ const Middle2 = () => {
                                 onClick={() => toggleSection(section)}
                             >
                                 <span className="text-[25px]">
-                                    {section === 1 && "A HOME THAT SURROUNDS YOU WITH WARMTH AND CARE"}
-                                    {section === 2 && "BRINGING COMPLEX PROJECTS TO LIFE"}
-                                    {section === 3 && "ADAPTING TO YOUR LIFESTYLE"}
+                                    {section === 1 && "HARMONIZING SPACE WITH FLAWLESS DETAILS"}
+                                    {section === 2 && "IMPLEMENTING DESIGN PROJECTS OF ALL COMPLEXITIES"}
+                                    {section === 3 && "A MULTIFACED APPROACH TO INTERIOR"}
                                 </span>
                                 <div className="relative w-[45px] h-[45px]">
                                     <CallReceivedIcon
@@ -68,7 +68,7 @@ const Middle2 = () => {
                                             A cozy family living room for relaxation, a grand reception hall for social events, a private spa with a beauty salon, a functional fitness and yoga space.
                                         </p>
                                         <p className="mt-2 text-[20px]">
-                                            Thoughtfully designed walking paths that match your pace, secluded relaxation areas by the fire, and spacious heated terraces with bioclimatic protection from the elements.
+                                            <span className="text-[#d38c37]">  Thoughtfully designed walking paths that match your pace, secluded relaxation areas by the fire, and spacious heated terraces with bioclimatic protection from the elements. </span>
                                         </p>
                                         <p className="mt-2 text-[20px]">
                                             By immersing ourselves in your lifestyle, we offer our vision of your ideal home — crafted in harmony with nature, for you and your family.
